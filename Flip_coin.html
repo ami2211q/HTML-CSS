@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .flip_button{
+        background-color: rgb(223, 18, 189);
+        border: none;
+        border-radius: 50%;   
+        height: 200px;
+        width: 200px;
+        margin-left: 40%;
+        color:rgb(169, 240, 15);
+        font-weight: lighter;
+        font-size: 50px;
+        cursor: pointer;
+        box-shadow: 10px 5px 5px red;
+        transition: color .15s, background-color .15s;
+    }
+    .flip_button:hover{
+        background-color: rgb(228, 241, 115);
+        color: rgb(234, 76, 197);
+        
+    }
+    .flip_button:active{
+        opacity: 0.7;
+    }
+    
+</style>
+<body>
+    <button class="flip_button" onclick="let x=Math.random();
+    if(x<=0.5) alert('HEAD')
+        else{alert('TAIL')}">
+        FliP
+    </button>
+</body>
+</html>
