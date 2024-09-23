@@ -23,8 +23,10 @@
             border:solid;
             border-color: rgb(231, 234, 237);
             padding-left: 10px;
-            box-shadow: -0.5px -0.5px 8px red;
+            box-shadow: -0.5px -0.5px 8px rgb(181, 172, 172);
             margin-top: 5px;
+            margin-bottom: 5px;
+            display: block;
         }
         .paragraph{
             display: inline-block;
@@ -35,12 +37,43 @@
         display: block;
         width: 250px;
         border-radius: 5px;
-        background-color: rgb(43, 84, 250);
+        background-color: rgb(48, 86, 237);
         color: white;
+        width: 355px;
+        height: 40px;
+        border-radius: 7px;
+        border: none;
+        cursor: pointer;
+       }
+       .firstName{
+        padding-left: 8px;
+        height: 30px;
+        border-radius: 7px;
+        border: solid;
+        border-color: rgb(219, 226, 233);
        } 
+       .lastName{
+        padding-left: 8px;
+        height: 30px;
+        margin-bottom: 10px;
+        border-radius: 7px;
+        border: solid;
+        border-color: rgb(219, 226, 233);
+       }
+       .email{
+            display: block;
+            height: 30px;
+            margin-bottom: 10px;
+            width: 342px;
+            border-radius: 7px;
+            border: solid;
+            border-color: rgb(219, 226, 233);
+            padding-left: 8px;
+       }
     </style>
 </head>
 <body>
+    <center>
     <input class="inputName" type="text" name="text" id="" placeholder="Name">
     <input class="inputEmail" type="text" name="" id="" placeholder="Email">
     <p class="paragraph">Thanks for chatting with our 
@@ -50,13 +83,12 @@
     <button>no</button>
     <img class="img" src="google img.jpeg" alt="" >
     <input class="inputButton" type="text" value="" placeholder="Sesrch Google or type a URL">
-    <input type="text" placeholder="First name">
-    <input type="text" placeholder="Last name">
-    <input type="email" placeholder="Email">
+    <input type="text" placeholder="First name" class="firstName">
+    <input type="text" placeholder="Last name" class="lastName">
+    <input type="email" placeholder="Email" class="email">
     <button class="btnSignUp">Sign Up</button>
-    <img src="C:\Users\ROSHAN\Downloads\IMG_20240512_225412.jpg" alt="image" height="100px">
 
-
-
+    </center>
+    
 </body>
 </html>
