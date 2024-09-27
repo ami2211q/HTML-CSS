@@ -1,35 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <style>
-        .a1{
+        .a1 {
             display: grid;
             grid-template-columns: 200px 73px;
             margin-bottom: 15px;
         }
-        .a2{
+
+        .a2 {
             display: grid;
             grid-template-columns: 50px 1fr 50px;
         }
-        .a3{
+
+        .a3 {
             margin-top: 15px;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
-            row-gap:10px;
+            row-gap: 10px;
             column-gap: 15px;
         }
-        .blue{
+
+        .blue {
             background-color: rgb(172, 172, 227);
+            padding-left: 10px;
         }
-        .pink{
+
+        .pink {
             background-color: rgb(238, 127, 164);
+            padding-left: 10px;
         }
-        
+        .card{
+            margin-top: 19px;
+            border: 1px;
+            width: 350px;
+            height: 25%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 10px;
+        }
+        .card1{
+            height: 300px;
+            width: 200px;
+            border: 1px;
+            box-shadow: -0.5px -0.5px 8px rgb(181, 172, 172);
+        }
+        .card2{
+            height: 300px;
+            width: 200px;
+            border: 1px;
+            box-shadow: -0.5px -0.5px 8px rgb(181, 172, 172);
+        }.card3{
+            height: 300px;
+            width: 200px;
+            border: 1px;
+            box-shadow: -0.5px -0.5px 8px rgb(181, 172, 172);
+            border: none;
+        }
+        .img{
+            height: 180px;
+            width: 200px;
+        }
+        .para{
+            font-weight:bold;
+            padding-left: 10px;
+            margin-top: 0px;
+            margin-bottom: 5px;
+        }
+        .profile{
+            height: 30px;
+            width: 30px;
+            border-radius: 15px;
+            display: inline-block;
+            margin-left: 10px;
+        }
+        .flist{
+            vertical-align: top;
+            display: inline-block;
+            margin-top: 4px;
+        }
+        .btn{
+            background-color: rgb(20, 107, 178);
+            height: 35px;
+            margin-top: 8px;
+            margin-left: 10px;
+
+        }
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GRIDS</title>
 </head>
+
 <body>
     <div class="a1">
         <div class="blue">200px</div>
@@ -51,5 +114,35 @@
         <div class="pink">3</div>
         <div class="pink">4</div>
     </div>
+        <div class="card">
+            <div class="card1">
+                <div><img src="MainAfter.webp" class="img"> </div>
+                <p class="para">image</p>
+                <div>
+                    <img src="download (1).jpeg" class="profile">
+                    <p class="flist">2 mutual friend</p>
+                </div>
+                <button class="btn">Add friend</button>
+            </div>
+            <div class="card2">
+                <div><img src="download.jpeg" class="img"></div>
+                <p class="para">image</p>
+                <div>
+                    <img src="download (1).jpeg" class="profile">
+                    <p class="flist">3 mutual friend</p>
+                </div>
+                <button class="btn">Add friend</button>
+            </div>
+            <div class="card3">
+                <img src="download (1).jpeg" class="img">
+                <p class="para">image</p>
+                <div>
+                    <img src="download (1).jpeg" class="profile">
+                    <p class="flist">4 mutual friend</p>
+                </div>
+                <button class="btn">Add friend</button>
+            </div>
+        </div> 
 </body>
+
 </html>
