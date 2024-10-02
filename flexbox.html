@@ -144,6 +144,44 @@
         font-weight: bold;
         padding-left: 15px;
     }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(125, 42, 176, 0.877);
+        flex: 1;
+        height: 50px;
+        align-items: center;
+        font-family:Roboto,Arial, sans-serif;
+    }
+    .home{
+        color: white;
+        margin-top: 4px;
+        margin-left: 10px;
+    }
+    .search{
+        width: 400px;
+        height: 30px;
+        border-radius: 15px;
+        border: none;
+        text-align: left;
+        padding-left: 20px;
+        color: gray;
+    }
+    .download{
+        color: white;
+        margin-right: 5px;
+        background-color:  rgba(125, 42, 176, 0.877);
+        border-color: white;
+        border: 1px solid;
+        padding: 5px 10px;
+    }
+
 </style>
 
 <body>
@@ -180,15 +218,16 @@
             <div class="number">5</div>
         </div>
     </div>
-    <div class="profile-box">
-        <div class="profile-img"><img class="img" src="download (1).jpeg"></div>
-        <div class="profile-details">
-            <h3 style="margin-bottom: 0px;
+    <div class="box">
+        <div class="profile-box">
+            <div class="profile-img"><img class="img" src="download (1).jpeg"></div>
+            <div class="profile-details">
+                <h3 style="margin-bottom: 0px;
                                 margin-top: 25px;
                                 margin-left: 15px;
                                 ">
-                oliver</h3>
-            <p style="margin-top: 1px;
+                    oliver</h3>
+                <p style="margin-top: 1px;
                             display: block;
                             margin-left: 15px;
                             margin-top: 2px;
@@ -197,79 +236,88 @@
                             color:gray;
                             font-family:Roboto, Arial, sans-serif;
                        ">
-                the cat</p>
-            <p style="margin-top: 1px;
+                    the cat</p>
+                <p style="margin-top: 1px;
                     display: inline;
                     margin-left: 15px;
                     font-size: large;
                     color:gray;
                     font-family:Roboto, Arial, sans-serif;
                             ">Popular</p>
+            </div>
+            <div class="profile-button">
+                <button class="button">Follow</button>
+            </div>
         </div>
-        <div class="profile-button">
-            <button class="button">Follow</button>
+        <div class="profile-box">
+            <div class="profile-img"><img class="img" src="MainAfter.webp"></div>
+            <div class="profile-details">
+                <h3 style="margin-bottom: 0px;
+                                margin-top: 25px;
+                                margin-left: 15px;
+                                ">
+                    oliver</h3>
+                <p style="margin-top: 1px;
+                            display: block;
+                            margin-left: 15px;
+                            margin-top: 2px;
+                            margin-bottom: 0px;
+                            font-size: large;
+                            color:gray;
+                            font-family:Roboto, Arial, sans-serif;
+                       ">
+                    the cat</p>
+                <p style="margin-top: 1px;
+                    display: inline;
+                    margin-left: 15px;
+                    font-size: large;
+                    color:gray;
+                    font-family:Roboto, Arial, sans-serif;
+                            ">Popular</p>
+            </div>
+            <div class="profile-button">
+                <button class="button">Follow</button>
+            </div>
+        </div>
+        <div class="profile-box">
+            <div class="profile-img"><img class="img" src="download.jpeg"></div>
+            <div class="profile-details">
+                <h3 style="margin-bottom: 0px;
+                                margin-top: 25px;
+                                margin-left: 15px;
+                                ">
+                    oliver</h3>
+                <p style="margin-top: 1px;
+                            display: block;
+                            margin-left: 15px;
+                            margin-top: 2px;
+                            margin-bottom: 0px;
+                            font-size: large;
+                            color:gray;
+                            font-family:Roboto, Arial, sans-serif;
+                       ">
+                    the cat</p>
+                <p style="margin-top: 1px;
+                    display: inline;
+                    margin-left: 15px;
+                    font-size: large;
+                    color:gray;
+                    font-family:Roboto, Arial, sans-serif;
+                            ">Popular</p>
+            </div>
+            <div class="profile-button">
+                <button class="button">Follow</button>
+            </div>
         </div>
     </div>
-    <div class="profile-box">
-        <div class="profile-img"><img class="img" src="download (1).jpeg"></div>
-        <div class="profile-details">
-            <h3 style="margin-bottom: 0px;
-                                margin-top: 25px;
-                                margin-left: 15px;
-                                ">
-                oliver</h3>
-            <p style="margin-top: 1px;
-                            display: block;
-                            margin-left: 15px;
-                            margin-top: 2px;
-                            margin-bottom: 0px;
-                            font-size: large;
-                            color:gray;
-                            font-family:Roboto, Arial, sans-serif;
-                       ">
-                the cat</p>
-            <p style="margin-top: 1px;
-                    display: inline;
-                    margin-left: 15px;
-                    font-size: large;
-                    color:gray;
-                    font-family:Roboto, Arial, sans-serif;
-                            ">Popular</p>
+    <div class="navbar">
+        <div class="home">Home</div>
+        <div >
+            <input class="search" type="button" value="Search">
         </div>
-        <div class="profile-button">
-            <button class="button">Follow</button>
-        </div>
-    </div>
-    <div class="profile-box">
-        <div class="profile-img"><img class="img" src="download (1).jpeg"></div>
-        <div class="profile-details">
-            <h3 style="margin-bottom: 0px;
-                                margin-top: 25px;
-                                margin-left: 15px;
-                                ">
-                oliver</h3>
-            <p style="margin-top: 1px;
-                            display: block;
-                            margin-left: 15px;
-                            margin-top: 2px;
-                            margin-bottom: 0px;
-                            font-size: large;
-                            color:gray;
-                            font-family:Roboto, Arial, sans-serif;
-                       ">
-                the cat</p>
-            <p style="margin-top: 1px;
-                    display: inline;
-                    margin-left: 15px;
-                    font-size: large;
-                    color:gray;
-                    font-family:Roboto, Arial, sans-serif;
-                            ">Popular</p>
-        </div>
-        <div class="profile-button">
-            <button class="button">Follow</button>
+        <div>
+            <button class="download" type="button">Download</button>
         </div>
     </div>
 </body>
-
 </html>
