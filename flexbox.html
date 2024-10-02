@@ -9,6 +9,9 @@
         rel="stylesheet">
 </head>
 <style>
+    body{
+        height: 2000px;
+    }
     .flex-main {
         display: flex;
         flex-direction: row;
@@ -150,16 +153,16 @@
         flex-direction: column;
     }
 
-    .navbar {
+    .navbar1 {
         display: flex;
         justify-content: space-between;
         background-color: rgba(125, 42, 176, 0.877);
-        flex: 1;
+        height: 50%;
         height: 50px;
         align-items: center;
         font-family:Roboto,Arial, sans-serif;
     }
-    .home{
+    .home1{
         color: white;
         margin-top: 4px;
         margin-left: 10px;
@@ -181,6 +184,52 @@
         border: 1px solid;
         padding: 5px 10px;
     }
+    .flexbox{
+        display: flex;
+        height: 60px;
+        width: 330px;
+        background-color: rgb(249, 248, 248);
+        margin-bottom: 10px;
+    }
+    .flex100{
+        display: flex;
+        width: 100px;
+        height: 60px;
+        background-color:lightpink;
+        align-items: center;
+    }
+    .item1{
+        display: flex;
+        color: white;
+        background-color: black;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .flex200{
+        width: 200px;
+        background-color: lightblue;
+    }
+    .rows{
+        display: flex;
+        flex-direction: column;
+        font-family:Roboto,Arial, sans-serif;
+    }
+    .rows1{
+        font-family:Roboto,Arial, sans-serif;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .row1{
+        display: flex;
+    }
+    .row2{
+        display: flex;
+        color: white;
+        font-family: Roboto,Arial, Helvetica, sans-serif;
+        background-color: black;
+    }
+
 
 </style>
 
@@ -310,14 +359,37 @@
             </div>
         </div>
     </div>
-    <div class="navbar">
-        <div class="home">Home</div>
+    <div class="navbar1">
+        <div class="home1">Home</div>
         <div >
             <input class="search" type="button" value="Search">
         </div>
         <div>
             <button class="download" type="button">Download</button>
         </div>
+    </div>
+    <div class="flexbox">
+        <div class="flex100">
+            <div class="item1">
+                item1
+            </div>
+        </div>
+        <div class="flex200">
+        </div>
+    </div>
+    <div class="flexbox">
+        <div class="flex100">
+            
+        </div>
+        <div class="flex200">
+            <div class="rows">
+                <div class="row1">row1</div>
+                
+            </div>
+            <div class="rows1">
+                <div class="row2">row2</div>
+                <div class="row2">row2</div>
+            </div>
     </div>
 </body>
 </html>
