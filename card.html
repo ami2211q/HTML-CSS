@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        body {
+            font-family: Roboto, Arial, sans-serif;
+            height: 1500px;
+        }
+
+        .card-box1 {
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            height: 150px;
+            box-shadow: -0.5px -0.5px 8px rgb(181, 172, 172);
+            margin-bottom: 5px;
+        }
+
+        .card-box2 {
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            height: 280px;
+            box-shadow: -0.5px -0.5px 8px rgb(181, 172, 172);
+        }
+
+        .card-containt {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        }
+
+        .inbox {
+            display: block;
+            color: rgba(79, 79, 79, 0.863);
+            margin-left: 15px;
+            font-weight: 420;
+
+        }
+
+        .card-info {
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        .img {
+            margin-top: 10px;
+            margin-left: 12px;
+            margin-right: 8px;
+            display: flex;
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .card-heading {
+            display: flex;
+            flex: 1;
+            margin-top: 0px;
+            margin-bottom: 2px;
+        }
+
+        .card-time {
+            display: flex;
+            color: gray;
+            width: 60px;
+            margin-right: 10px;
+        }
+
+        .card-heading1 {
+            display: flex;
+            flex: 1;
+            font-weight: 800;
+            margin-bottom: 2px;
+        }
+
+        .card-heading2 {
+            display: flex;
+            flex: 1;
+            font-weight: 700;
+            margin-bottom: 2px;
+        }
+
+        .card-heading3 {
+            color: gray;
+        }
+
+        .card-box3 {
+            /* display: grid;
+            grid-template-columns: 70px 1fr; */
+            display: flex;
+            height: 200px;
+            flex: 1;
+            box-shadow: -0.5px -0.5px 8px rgb(181, 172, 172);
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card-box1">
+        <div class="inbox">
+            <p style="display: block;">ALL INBOXES</p>
+        </div>
+        <div class="card-info">
+            <div class="card-img"><img class="img" src="download.jpeg" alt=""></div>
+            <div class="card-containt">
+                <div class="card-heading">
+                    <div class="card-heading1">Chewy Promotions</div>
+                    <div class="card-time">4:58 PM</div>
+                </div>
+                <div class="card-heading2">Biggest sales of the year!</div>
+                <div class="card-heading3">Hey there! We're writing to tell you about our...</div>
+            </div>
+        </div>
+    </div>
+    <div class="card-box2">
+        <div class="inbox">
+            <p style="display: block;">ALL INBOXES</p>
+        </div>
+        <div>
+            <div class="card-info">
+                <div class="card-img"><img class="img" src="download.jpeg" alt=""></div>
+                <div class="card-containt">
+                    <div class="card-heading">
+                        <div class="card-heading1">Chewy Promotions</div>
+                        <div class="card-time">4:58 PM</div>
+                    </div>
+                    <div class="card-heading2">Biggest sales of the year!</div>
+                    <div class="card-heading3">Hey there! We're writing to tell you about our...</div>
+                </div>
+            </div>
+            <div class="card-info">
+                <div class="card-img"><img class="img" src="MainAfter.webp" alt=""></div>
+                <div class="card-containt">
+                    <div class="card-heading">
+                        <div class="card-heading1">Chewy Promotions</div>
+                        <div class="card-time">4:58 PM</div>
+                    </div>
+                    <div class="card-heading2">Biggest sales of the year!</div>
+                    <div class="card-heading3">Hey there! We're writing to tell you about our...</div>
+                </div>
+            </div>
+            <div class="card-info">
+                <div class="card-img"><img class="img" src="download (1).jpeg" alt=""></div>
+                <div class="card-containt">
+                    <div class="card-heading">
+                        <div class="card-heading1">Chewy Promotions</div>
+                        <div class="card-time">4:58 PM</div>
+                    </div>
+                    <div class="card-heading2">Biggest sales of the year!</div>
+                    <div class="card-heading3">Hey there! We're writing to tell you about our...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-box3">
+        <div class="card-box3-box1">
+            <img class="img" src="MainAfter.webp" alt="">
+        </div>
+
+        <div class="card-box3-boxs">
+            <div class="card-box3-box2">
+                <div>supersimple.dev <span style="color: gray;">@SuperSimpleDev</span></div>
+                <div>What is backend web development? A complete</div>
+                <div>overview. New video is up!</div>
+            </div>
+            <div class="card-box3-box3">
+                <div > </div>
+                <div>
+                    <div>youtube.com</div>
+                    <div>Backend web development-a</div>
+                    <div>complete overview(2021)</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
