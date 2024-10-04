@@ -94,11 +94,47 @@
         .card-box3 {
             /* display: grid;
             grid-template-columns: 70px 1fr; */
+
+            margin-top: 10px;
+            padding-top: 10px;
             display: flex;
             height: 200px;
-            flex: 1;
+            width: 440px;
+            /* border: solid 1px; */
             box-shadow: -0.5px -0.5px 8px rgb(181, 172, 172);
             margin-bottom: 5px;
+        }
+        .card-box3-box3{
+            padding-right: 20px;
+            display: flex;
+            height: 100px;
+            width: 330px;
+            border: solid 1px;
+            border-radius: 15px;
+            border: none;
+            margin-top: 15px;
+            box-shadow: -0.5px -0.5px 8px rgb(181, 172, 172);
+        }
+        .card-box3-box3-1{
+            display: flex;
+            height: 100px;
+            width: 100px;
+            background-color: rgba(114, 108, 108, 0.317);
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+        }
+        .card-box3-box3-2{
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+ 
+        }
+        .box3-3-heading{
+            font-weight: bold;
+        }
+        .heading-box{
+            font-weight: 500;
+            margin-top: 3px; 
         }
     </style>
 </head>
@@ -168,16 +204,16 @@
 
         <div class="card-box3-boxs">
             <div class="card-box3-box2">
-                <div>supersimple.dev <span style="color: gray;">@SuperSimpleDev</span></div>
-                <div>What is backend web development? A complete</div>
-                <div>overview. New video is up!</div>
+                <div class="box3-3-heading">supersimple.dev <span style="color: gray;">@SuperSimpleDev</span></div>
+                <div class="heading-box">What is backend web development? A complete</div>
+                <div class="heading-box">overview. New video is up!</div>
             </div>
             <div class="card-box3-box3">
-                <div > </div>
-                <div>
-                    <div>youtube.com</div>
-                    <div>Backend web development-a</div>
-                    <div>complete overview(2021)</div>
+                <div class="card-box3-box3-1"> </div>
+                <div class="card-box3-box3-2">
+                    <div style="color: gray;">youtube.com</div>
+                    <div class="heading-box">Backend web development-a</div>
+                    <div class="heading-box">complete overview(2021)</div>
                 </div>
             </div>
         </div>
