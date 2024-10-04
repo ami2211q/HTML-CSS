@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        body{
+           height: 3000px; 
+           font-family: Roboto,Arial,sans-serif;
+        }
+        .bottom-right{
+            position: fixed;
+            background-color: black;
+            color: white;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1;
+        }
+        .right-sidebar{
+            position: fixed;
+            background-color: green;
+            color: aliceblue;
+            width: 100px;
+            right: 0px;
+            top: 0px;
+            bottom: 0px;
+        }
+        .black-page{
+            display: flex;
+            background-color: rgba(0, 0, 8, 0.8);
+            position: fixed;
+            right: 0px;
+            top: 0px;
+            bottom: 0px;
+            left: 0px;
+        }
+        .modal-card{
+            width: 600px;
+            height: 200px;
+            margin-top: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            background-color:white;
+            border-radius: 15px;
+            padding-left: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="bottom-right">bottom-right</div>
+    <div class="right-sidebar">right-sidebar</div>
+    <div class="black-page">
+        <div class="modal-card">
+            <h1>Model Title</h1>
+            <h3>This is a modal</h3>
+            <button>Close</button>
+    </div>
+    </div>
+
+</body>
+</html>
