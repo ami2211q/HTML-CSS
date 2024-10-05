@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord</title>
+</head>
+<style>
+    body {
+        margin: 0px;
+        font-family: Roboto, Arial, sans-serif;
+    }
+
+    .aside {
+        display: flex;
+    }
+
+    .aside-div1 {
+        background-color: #1a1b1f;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0px;
+        bottom: 0px;
+        width: 60px;
+        padding-top: 10px;
+    }
+
+    .img {
+        display: flex;
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
+        object-fit: cover;
+        object-position: center;
+        margin-left: 10px;
+        margin-bottom: 7px;
+    }
+
+    .aside-div2 {
+        display: flex;
+        background-color: rgb(0, 0, 0, 0.8);
+        margin-left: 60px;
+        position: fixed;
+        top: 0px;
+        bottom: 0px;
+        flex-direction: column;
+        width: 160px;
+    }
+    .heading{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10px;
+        margin-right: 10px;
+        color: white;
+    }
+    .lists{
+        display: flex;
+        flex-direction: column;
+    }
+    .items {
+        display: flex;
+        color: gray;
+        margin-bottom: 11px;
+        margin-top: 0px;
+        margin-left: 13px;
+    }
+</style>
+
+<body>
+    <aside class="aside">
+        <div class="aside-div1">
+            <img class="img" src="download.jpeg" alt="">
+            <img class="img" src="download (1).jpeg" alt="">
+            <img class="img" src="MainAfter.webp" alt="">
+        </div>
+        <div class="aside-div2">
+            <div class="heading">
+                <h6 style="margin-bottom: 0px;">INFO</h6>
+                <p style="color: gray; 
+                    font-weight:500;
+                    font-size: 20px;
+                    margin-bottom: 8px;">+</p>
+            </div>
+            <div class="lists">
+                    <p class="items"># new-videos</p>
+                    <p class="items"># updates</p>
+                    <p class="items"># faq</p>
+            </div>
+        </div>
+    </aside>
+</body>
+
+</html>
