@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook</title>
+    <style>
+        body{
+            background-color: rgb(0,0,0,0.8);
+            font-family: Roboto,Arial,sans-serif;
+        }
+        .header{
+            background-color: white;
+            display: flex;
+            position: fixed;
+            left: 0px;
+            right: 0px;
+            height:60px;
+            justify-content: space-between;
+            padding-left: 8%;
+            padding-right: 8%;
+        }
+        .img {
+            display: flex;
+            height: 40px;
+            width: 40px;
+            border-radius: 20px;
+            object-fit: cover;
+            object-position: center;
+            margin-right: 5px;
+        }
+        .header-div1{
+            display: flex;
+            align-items: center;
+        }
+        .header-div2{
+            display: flex;
+            align-items: center;
+        }
+        .btn-addfriend{
+            background-color: #3570da;
+            margin-right: 5px;
+            color: white;
+            font-weight: 600;
+            height: 40px;
+            width: 120px;
+            border-radius: 10px;
+            border: none;
+        }
+        .btn-message{
+            background-color: lightgray;
+            margin-right: 5px;
+            color: black;
+            font-weight: 600;
+            height: 40px;
+            width: 120px;
+            border-radius: 10px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-div1">
+            <img class="img" src="../download.jpeg" alt="">
+            <h3>Oliver Cat</h3>
+        </div>
+        <div class="header-div2">
+            <button class="btn-addfriend">
+                Add Friend
+            </button>
+            <button class="btn-message">
+                Message
+            </button>
+        </div>
+    </header>
+    
+</body>
+</html>
