@@ -1,0 +1,15 @@
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 90px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+.card{
+    display: flex;
+    background-color: blueviolet;
+    height: 280px;
+    width: 350px;
+    margin-top: 80px;
+
+}

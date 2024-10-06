@@ -1,0 +1,8 @@
+.aside{
+    background-color: rgb(0, 255, 81);
+    display: flex;
+    position: fixed;
+    top: 80px;
+    bottom: 0px;
+    width: 80px;
+}
