@@ -1,15 +1,28 @@
 .main{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-left: 90px;
-    padding-top: 5px;
-    margin-bottom: 0px;
-}
-.card{
     display: flex;
-    background-color: blueviolet;
-    height: 280px;
-    width: 350px;
-    margin-top: 80px;
-
+    position: relative;
+    top: 80px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
 }
+ .aside{
+    background-color: rgb(0, 255, 81);
+    position: fixed;
+    top: 80px;
+    width: 90px;
+    height: 100vh;
+    left: 0;
+}
+.container{
+    background-color: rgb(255, 228, 205);
+    display: flex;
+    position: fixed;
+    top: 80px;
+    left:90px ;
+    right: 0px;
+    bottom: 0px;
+    margin: 10px;
+}
+
+
