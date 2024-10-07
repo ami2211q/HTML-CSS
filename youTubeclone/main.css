@@ -15,18 +15,20 @@
     left: 0;
 }
 .container{
-    background-color: rgb(255, 228, 205);
     display: flex;
-    position: fixed;
-    top: 80px;
-    left:90px ;
-    right: 0px;
-    bottom: 0px;
-    margin: 10px;
+    padding-left: 105px;
+    padding-top: 12px;
 }
 .cards{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.card{
+    display: flex;
+    height: 380px;
+    width: 335px;
+    background-color: aqua;
 }
 
 
