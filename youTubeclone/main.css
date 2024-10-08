@@ -26,9 +26,9 @@
 }
 .card{
     display: flex;
-    height: 380px;
+    height: 290px;
     width: 335px;
-    background-color: aqua;
+    background-color: rgb(38, 0, 255);
 }
 
 

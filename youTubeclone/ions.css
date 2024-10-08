@@ -1,0 +1,22 @@
+.ions{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+}
+.ion-youtube{
+    height: 100px;
+    width: 100px;
+}
+.ion-hamburger{
+    height: 40px;
+    width: 40px;
+}
+.search-box{
+    height: 40px;
+    width: 40px;
+}
+.ion-search{
+    height: 40px;
+    width: 40px;
+}
+
