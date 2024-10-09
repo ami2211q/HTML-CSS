@@ -1,9 +1,3 @@
-/* .ions{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-between;
-   justify-content: center;
-} */
 .header-left{
     display: flex;
     align-items: center;
@@ -12,15 +6,23 @@
     margin-left: 8px;
     vertical-align: middle;
     margin-right: 170px;
-}
+} 
 .ion-youtube{
     height: 50px;
     width: 90px;
     margin-left: 10px;
+    cursor: pointer;
 }
 .ion-hamburger{
-    height: 25px;
+    height: 40px;
     width: 40px;
+    border-radius: 40px;
+    cursor: pointer;
+    padding: 8px;
+    transition: 0.15s;
+}
+.ion-hamburger:hover{
+    background-color:  rgb(236, 232, 232);
 }
 .header-center{
     flex: 1;
@@ -37,22 +39,21 @@
     border-radius: 20px;
     width: 100%;
     padding-left: 15px;
-    border: 1px solid gray;
+    border: 1px solid rgb(218, 213, 213);
 }
 .ion-search{
     height: 40px;
     width: 80px;
-    margin-right: 15px;
-    margin-left: -40px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    border: 1px solid gray;
+    margin-left: -40px; 
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    border: 1px solid rgb(218, 213, 213); 
     background-color:#f8f9f8fd;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
     cursor: pointer;
     transition: 0.15s;
-}
+} 
 .ion-search:hover{ 
     background-color:  rgb(236, 232, 232);
 }
@@ -81,12 +82,15 @@
 }
 .ioc-upload{
     height: 25px;
+    cursor: pointer;
 }
 .ioc-youtube-apps{
     height: 25px;
+    cursor: pointer;
 }
 .ioc-notifications{
     height: 25px;
+    cursor: pointer;
 }
 .profile-img{
     height: 36px;
@@ -94,6 +98,5 @@
     border-radius: 18px;
     object-fit: cover;
     object-position: center;
-
+    cursor: pointer;
 }
-
