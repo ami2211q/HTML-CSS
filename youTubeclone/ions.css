@@ -33,7 +33,7 @@
     gap: 10px;
 }
 .search-box{
-    color: rgba(246, 246, 246, 0.132);
+    color: black;
     font-size: medium;
     height: 40px;
     border-radius: 20px;
@@ -99,4 +99,28 @@
     object-fit: cover;
     object-position: center;
     cursor: pointer;
+}
+.ion-home{
+    height: 28px;
+    width: 28px;
+}
+.ion-explore{
+    height: 28px;
+    width: 28px;
+}
+.ion-subscriptions{
+    height: 28px;
+    width: 28px;
+}
+.ion-originals{
+    height: 28px;
+    width: 28px;
+}
+.ion-youtube-music{
+    height: 28px;
+    width: 28px;
+}
+.ion-library{
+    height: 28px;
+    width: 28px;
 }
