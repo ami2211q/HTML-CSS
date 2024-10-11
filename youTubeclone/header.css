@@ -3,10 +3,109 @@
     position: fixed;
     left: 0px;
     right: 0px;
-    height: 70px;
+    height: 55px;
     z-index: 200;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+    vertical-align: middle;
+} 
+.ion-youtube{
+    height: 50px;
+    width: 90px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.ion-hamburger{
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    cursor: pointer;
+    padding: 8px;
+    transition: 0.15s;
+}
+.ion-hamburger:hover{
+    background-color:  rgb(236, 232, 232);
+}
+.header-center{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    gap: 10px;
+}
+.search-box{
+    color: black;
+    font-size: medium;
+    height: 40px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 50%;
+    padding-left: 20px;
+    border: 1px solid rgb(114, 114, 117);
+}
+.search-box:active{
+    border: 0.5px solid rgb(0, 0, 255);
+}
+.ion-search{
+    height: 40px;
+    width: 80px;
+    margin-left: -11px; 
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    border: 1px solid rgb(114, 114, 117); 
+    background-color:#f8f9f8fd;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+    transition: 0.15s;
+} 
+.ion-search:hover{ 
+    background-color:  rgb(236, 232, 232);
+}
+
+.ion-voice-search{
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+    background-color:#f8f9f8fd;
+    border-radius:20px ;
+    cursor: pointer;
+    transition: 0.15s;
+}
+.ion-voice-search:hover{
+    background-color: rgb(227, 224, 224);
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 200px;
+    vertical-align: middle; 
+    margin-left: 10px;
+    margin-right: 20px;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+.ioc-upload{
+    height: 25px;
+    cursor: pointer;
+}
+.ioc-youtube-apps{
+    height: 25px;
+    cursor: pointer;
+}
+.ioc-notifications{
+    height: 25px;
+    cursor: pointer;
 }

@@ -1,0 +1,86 @@
+.aside{
+    background-color: white;
+    position: fixed;
+    top: 70px;
+    width: 80px;
+    height: 100vh;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    z-index: 50;
+}
+.aside-text{
+    font-size: 12px;
+    align-items: center;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ion-home{
+    height: 23px;
+    width: 23px;
+}
+.explore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ion-explore{
+    height: 23px;
+    width: 23px;
+}
+.subscriptions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ion-subscriptions{
+    display: flex;
+    justify-content: center;
+    height: 23px;
+    width: 23px;  
+}
+.originals{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ion-originals{
+    height: 23px;
+    width: 23px;
+}
+.youtube-music{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ion-youtube-music{
+    height: 23px;
+    width: 23px;
+}
+.library{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.ion-library{
+    height: 23px;
+    width: 23px;
+}
+.ioc-more{
+    display: flex;
+    height: 15px;
+    width:20px;
+    align-items: center;
+    justify-content: center;
+}
