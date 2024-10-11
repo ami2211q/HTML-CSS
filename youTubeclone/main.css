@@ -15,9 +15,10 @@
 }
 .card{
     display: flex;
+    flex-direction: column;
     height: 290px;
     width: 330px;
-    background-color: rgb(239, 238, 239);
+    /* background-color: rgb(239, 238, 239); */
 }
 .card-info{
     display: flex;
@@ -31,20 +32,64 @@
     object-position: center;
     cursor: pointer;
 }
+.video-image{
+    display: flex;
+    position: relative;
+}
 .img-card{
+    display: block;
     width: 100%;
-    height: 70%;
+    height: 100%;
     border-radius: 10px;
 }
-.card-profile{
-    height: 28px;
-    width: 28px;
-    border-radius: 14px;
+.video-time{
+    display: flex;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+    padding: 2px;
+    border-radius: 4px;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    font-weight: normal;
+}
+.channel-profile-img{
+    margin: 10px 10px 0px 0px;
+    height: 36px;
+    width: 36px;
+    border-radius: 18px;
     object-fit: cover;
     object-position: center;
     cursor: pointer;
 }
+.video-description{
+    margin: 10px 0px 0px 5px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.channel-profile{
+    display: flex;
+    width: 40px;
+    height: 100%;
+    cursor: pointer;
+}
+.video-title{
+    font-weight: bold;
+    cursor: pointer;
+}
+.channel-name{
+    color:gray;
+    margin-top: 5px;
+    cursor: pointer;
+}
 
+.video-view{
+    margin-top: 5px;
+    color: gray;
+    cursor: pointer;
+}
 
 
 
