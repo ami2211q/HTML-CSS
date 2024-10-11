@@ -5,7 +5,6 @@
     width: 250px;
     margin-left: 8px;
     vertical-align: middle;
-    margin-right: 170px;
 } 
 .ion-youtube{
     height: 50px;
@@ -36,18 +35,22 @@
     color: black;
     font-size: medium;
     height: 40px;
-    border-radius: 20px;
-    width: 100%;
-    padding-left: 15px;
-    border: 1px solid rgb(218, 213, 213);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 50%;
+    padding-left: 20px;
+    border: 1px solid rgb(114, 114, 117);
+}
+.search-box:active{
+    border: 0.5px solid rgb(0, 0, 255);
 }
 .ion-search{
     height: 40px;
     width: 80px;
-    margin-left: -40px; 
+    margin-left: -11px; 
     padding-top: 5px;
     padding-bottom: 5px; 
-    border: 1px solid rgb(218, 213, 213); 
+    border: 1px solid rgb(114, 114, 117); 
     background-color:#f8f9f8fd;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
@@ -57,6 +60,7 @@
 .ion-search:hover{ 
     background-color:  rgb(236, 232, 232);
 }
+
 .ion-voice-search{
     height: 40px;
     width: 40px;
@@ -75,7 +79,7 @@
     height: 70px;
     width: 200px;
     vertical-align: middle; 
-    margin-left: 190px;
+    margin-left: 10px;
     margin-right: 20px;
     justify-content: space-between;
     padding-left: 50px;
@@ -92,14 +96,7 @@
     height: 25px;
     cursor: pointer;
 }
-.profile-img{
-    height: 36px;
-    width: 36px;
-    border-radius: 18px;
-    object-fit: cover;
-    object-position: center;
-    cursor: pointer;
-}
+
 .ion-home{
     height: 28px;
     width: 28px;
@@ -123,4 +120,11 @@
 .ion-library{
     height: 28px;
     width: 28px;
+}
+.ioc-more{
+    display: flex;
+    height: 15px;
+    width:20px;
+    align-items: center;
+    justify-content: center;
 }
